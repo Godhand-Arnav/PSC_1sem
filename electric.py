@@ -1,0 +1,21 @@
+a=int(input("enter no of unit:"))
+if(a<100):
+    r=3
+    x=a*r
+    print(x)
+elif(101<a<200):
+    r=6
+    y=a*r
+    print(y)
+elif(201<a<500):
+    r=20
+    z=a*r
+    print(z)
+elif(501<a<1000):
+    r=40
+    s=a*r
+    print(s)
+else:
+    r=50
+    c=a*r
+    print(c)

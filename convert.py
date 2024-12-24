@@ -1,0 +1,6 @@
+tuple=(10,20,30,40,50)
+con=list(tuple)
+con.append(60)
+con.append(70)
+con.append(80)
+print(con)
